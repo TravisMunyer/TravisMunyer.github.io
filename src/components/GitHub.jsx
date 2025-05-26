@@ -1,6 +1,11 @@
 import React from 'react';
+import ReactGA from 'react-ga4';
 
-export default function Home() {
+ReactGA.initialize('G-Q4JHKLZ907');
+
+export default function GitHub() {
+    ReactGA.send({ hitType: "pageview", page: "/github" });
+
     return (
         <div>
             <h2>GitHub Profiles</h2>

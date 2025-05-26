@@ -1,6 +1,11 @@
 import React from 'react';
+import ReactGA from 'react-ga4';
+
+ReactGA.initialize('G-Q4JHKLZ907');
 
 export default function Resume() {
+    ReactGA.send({ hitType: "pageview", page: "/resume" });
+
     return (
         <div>
             <h2>Resume</h2>
