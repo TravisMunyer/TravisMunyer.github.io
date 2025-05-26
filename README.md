@@ -1,12 +1,42 @@
-# React + Vite
+# Travis Munyer | Machine Learning Projects Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React + Vite web application showcasing machine learning and reinforcement learning projects by Travis Munyer. Each project page features dynamic SEO metadata, detailed writeups, and visualizations.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React + Vite**: Fast development with HMR and modern build tooling.
+- **Project Portfolio**: Modular project pages loaded dynamically from `src/projects/`.
+- **Dynamic SEO**: Each project provides custom meta tags for title, description, keywords, and social sharing.
+- **Routing**: Uses `react-router-dom` for navigation between project pages.
+- **Analytics**: Google Analytics 4 integration for pageview tracking.
+- **Responsive Design**: Clean, accessible layout for all devices.
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/projects/` — Individual project files (e.g., Lunar Lander, DeepRacer, Overcooked AI), each exporting a `metadata` object and a React component.
+- `src/components/ProjectPage.jsx` — Loads and displays a project based on the URL slug, injecting SEO metadata.
+- `src/projects/Projects.jsx` — Aggregates and sorts all projects for listing and lookup.
+- `src/assets/projects/` — Project images and assets.
+
+## Example Projects
+
+- **🏁 DeepRacer**: Self-driving car with PPO in AWS DeepRacer.
+- **🍲 Kitchen Execution**: Multi-agent RL in Overcooked AI.
+- **🌙 Lunar Lander**: PPO for continuous control in Gymnasium’s Lunar Lander.
+
+## Getting Started
+
+1. **Install dependencies**
+   ```sh
+   npm install
+   ```
+
+2. **Run the development server**
+    ```
+    npm run dev
+    ```
+
+3. **Push to GitHub Pages**
+    ```
+   npm run deploy
+   ```
