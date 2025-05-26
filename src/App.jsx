@@ -9,6 +9,7 @@ import Publications from "./components/Publications";
 import GitHub from "./components/GitHub.jsx"
 import ProjectHighlights from './components/ProjectHighlights';
 import ProjectPage from './components/ProjectPage';
+import Contact from './components/Contact';
 
 export default function App() {
     return (
@@ -25,6 +26,7 @@ export default function App() {
                 <Link to="/projects"><button>Project Highlights</button></Link>
                 <Link to="/publications"><button>Publications</button></Link>
                 <Link to="/github"><button>GitHub</button></Link>
+                <Link to="/contact"><button>Contact</button></Link>
             </nav>
             <Routes>
                 <Route path="/" element={
@@ -43,8 +45,11 @@ export default function App() {
                     <div className="card"><ProjectHighlights /></div>
                 } />
                 <Route path="/projects/:slug" element={
-                    <div className="card"><ProjectPage /></div>}
-                />
+                    <div className="card"><ProjectPage /></div>
+                }/>
+                <Route path="/contact" element={
+                    <div className="card"><Contact /></div>
+                } />
             </Routes>
         </>
     );
