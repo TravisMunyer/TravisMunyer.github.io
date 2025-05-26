@@ -32,7 +32,7 @@ export default function Resume() {
             </section>
             <section>
                 <h3>Education</h3>
-                <h4>Master of Science in Computer Science, Specialization in Machine Learning, Georgia Institute of Technology</h4>
+                <h4>Master of Science in Computer Science (Specialization in Machine Learning), Georgia Institute of Technology</h4>
                 <p><em>Atlanta, GA &mdash; Expected Graduation: December 2025 &mdash; GPA: 4.00/4.00</em></p>
                 <h4>Bachelor of Science in Computer Science (Minor in Mathematics), University of Nebraska at Omaha</h4>
                 <p><em>Omaha, NE &mdash; August 2020 - May 2023 &mdash; GPA: 3.99/4.00</em></p>

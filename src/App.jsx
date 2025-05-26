@@ -5,6 +5,7 @@ import './styles/App.css';
 import Home from './components/Home';
 import Resume from './components/Resume';
 import Publications from "./components/Publications";
+import GitHub from "./components/GitHub.jsx"
 
 export default function App() {
     return (
@@ -19,6 +20,7 @@ export default function App() {
                 <Link to="/"><button>Home</button></Link>
                 <Link to="/resume"><button>Resume</button></Link>
                 <Link to="/publications"><button>Publications</button></Link>
+                <Link to="/github"><button>GitHub</button></Link>
             </nav>
             <Routes>
                 <Route path="/" element={
@@ -36,6 +38,11 @@ export default function App() {
                 <Route path="/publications" element={
                     <div className="card">
                         <Publications />
+                    </div>
+                } />
+                <Route path="/github" element={
+                    <div className="card">
+                        <GitHub />
                     </div>
                 } />
             </Routes>
