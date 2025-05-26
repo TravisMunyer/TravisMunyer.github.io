@@ -32,7 +32,7 @@ export default function KitchenExecution() {
 
             <div style={{ textAlign: "center", marginTop: "20px" }}>
                 <img
-                    src="/assets/projects/videos/marl_circuit_demo.gif"
+                    src="/assets/projects/videos/marl_circuit_demo_coop.gif"
                     alt="Multi-agent kitchen collaboration demo"
                     style={{ maxWidth: "100%", borderRadius: "12px" }}
                 />
