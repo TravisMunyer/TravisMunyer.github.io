@@ -1,13 +1,19 @@
 import React from "react";
 import image from '../assets/projects/RaceImage.png';
+import ReactGA from 'react-ga4';
+
+ReactGA.initialize('G-Q4JHKLZ907');
 
 export const metadata = {
-    title: "🏁 Rrrrrracing! An Exploration of Reinforcement Learning in the DeepRacer Environment",
+    title: "🏁 Rrrrrracing! Learning to Drive in the DeepRacer Environment",
     image,
-    slug: "self-driving-car"
+    slug: "self-driving-car",
+    order: 1
 };
 
 export default function Racing() {
+    ReactGA.send({ hitType: "pageview", page: "/projects/${metadata.slug}" });
+
     return (
         <section
             id="deepracer-project"

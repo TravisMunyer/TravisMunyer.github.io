@@ -1,13 +1,19 @@
 import React from "react";
 import image from "../assets/projects/CookImage.png";
+import ReactGA from 'react-ga4';
+
+ReactGA.initialize('G-Q4JHKLZ907');
 
 export const metadata = {
     title: "🍲 Kitchen Execution with Multiple Chefs",
     image,
-    slug: "kitchen-execution"
+    slug: "kitchen-execution",
+    order: 2
 };
 
 export default function KitchenExecution() {
+    ReactGA.send({ hitType: "pageview", page: "/projects/${metadata.slug}" });
+
     return (
         <section
             id="marl-kitchen-project"
