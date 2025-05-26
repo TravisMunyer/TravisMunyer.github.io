@@ -11,7 +11,7 @@ export default function App() {
     return (
         <>
             <div>
-                <a href="./" target="_blank" rel="noopener noreferrer">
+                <a href="./" rel="noopener noreferrer">
                     <img src={Portrait} className="logo" alt="Portrait" />
                 </a>
             </div>
