@@ -1,0 +1,16 @@
+.project-card {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 2em;
+    /*border: 1px solid #eee;*/
+    /*border-radius: 8px;*/
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.15s, box-shadow 0.15s;
+    /*background: #fff;*/
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}

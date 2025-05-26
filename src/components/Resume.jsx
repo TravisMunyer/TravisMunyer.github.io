@@ -7,7 +7,7 @@ export default function Resume() {
     ReactGA.send({ hitType: "pageview", page: "/resume" });
 
     return (
-        <div>
+        <div className="content-page">
             <h2>Resume</h2>
             <section>
                 <h3>Summary</h3>
