@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactGA from 'react-ga4';
+import { Helmet } from 'react-helmet-async';
 
 ReactGA.initialize('G-Q4JHKLZ907');
 
@@ -8,6 +9,11 @@ export default function Publications() {
 
     return (
         <div>
+            <Helmet>
+                <title>Travis Munyer | Publications</title>
+                <meta name="description" content="Research publications by Travis Munyer in AI, computer vision, and deep learning." />
+                <meta name="keywords" content="Travis Munyer, Publications, Research, AI, Computer Vision, Deep Learning" />
+            </Helmet>
             <h2>Publications</h2>
             <ul className="no-bullets">
                 <li>

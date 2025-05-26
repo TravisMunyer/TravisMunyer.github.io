@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import Portrait from './assets/Portrait.jpg'
 import './styles/App.css';
+import { HelmetProvider } from 'react-helmet-async';
 
 import Home from './components/Home';
 import Resume from './components/Resume';
@@ -13,7 +14,7 @@ import Contact from './components/Contact';
 
 export default function App() {
     return (
-        <>
+        <HelmetProvider>
             <div>
                 <a href="./" rel="noopener noreferrer">
                     <img src={Portrait} className="logo" alt="Portrait" />
@@ -51,6 +52,6 @@ export default function App() {
                     <div className="card"><Contact /></div>
                 } />
             </Routes>
-        </>
+        </HelmetProvider>
     );
 }

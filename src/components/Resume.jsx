@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactGA from 'react-ga4';
+import { Helmet } from 'react-helmet-async';
 
 ReactGA.initialize('G-Q4JHKLZ907');
 
@@ -8,6 +9,11 @@ export default function Resume() {
 
     return (
         <div className="content-page">
+            <Helmet>
+                <title>Travis Munyer | Resume</title>
+                <meta name="description" content="Resume of Travis Munyer: Software Engineer, Researcher, and Machine Learning Specialist." />
+                <meta name="keywords" content="Travis Munyer, Resume, Software Engineer, Machine Learning, Research, AI, Skills, Experience" />
+            </Helmet>
             <h2>Resume</h2>
             <section>
                 <h3>Summary</h3>

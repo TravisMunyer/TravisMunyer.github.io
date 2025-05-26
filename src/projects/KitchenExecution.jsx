@@ -8,7 +8,9 @@ export const metadata = {
     title: "🍲 Kitchen Execution with Multiple Chefs",
     image,
     slug: "kitchen-execution",
-    order: 2
+    order: 2,
+    description: "Cooperative multi-agent reinforcement learning in Overcooked AI: PPO with shared reward/value, results, and future work.",
+    keywords: "Travis Munyer, Kitchen Execution, Multi-Agent RL, Overcooked AI, PPO, Machine Learning, Research"
 };
 
 export default function KitchenExecution() {

@@ -8,7 +8,9 @@ export const metadata = {
     title: "🏁 Rrrrrracing! Learning to Drive in the DeepRacer Environment",
     image,
     slug: "self-driving-car",
-    order: 1
+    order: 1,
+    description: "Reinforcement learning in AWS DeepRacer: PPO agent learns to drive using sensor fusion, reward shaping, and curriculum learning across multiple race types and tracks.",
+    keywords: "Travis Munyer, DeepRacer, Self-Driving Car, Reinforcement Learning, PPO, AWS, Machine Learning, Research"
 };
 
 export default function Racing() {

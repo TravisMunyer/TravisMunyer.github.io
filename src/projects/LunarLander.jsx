@@ -8,7 +8,9 @@ export const metadata = {
     title: "🌙 Landing on the Moon: An Exploration of PPO",
     image,
     slug: "lunar-lander",
-    order: 3
+    order: 3,
+    description: "Solving the Lunar Lander Continuous environment with Proximal Policy Optimization (PPO): methodology, hyperparameter tuning, results, and future work.",
+    keywords: "Travis Munyer, Lunar Lander, PPO, Reinforcement Learning, Machine Learning, Continuous Control, Research"
 };
 
 export default function LunarLander() {
