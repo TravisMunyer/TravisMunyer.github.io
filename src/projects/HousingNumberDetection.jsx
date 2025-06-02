@@ -26,7 +26,7 @@ export const metadata = {
     keywords: "Travis Munyer, Number Detection, MSER, CNN, SVHN, Computer Vision, DenseNet, MobileNetV2, Object Detection"
 };
 
-const NumberDetectionProject = () => {
+export default function NumberDetectionProject() {
     ReactGA.send({ hitType: "pageview", page: "/projects/${metadata.slug}" });
 
     return (
