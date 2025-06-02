@@ -12,6 +12,22 @@
   transition: filter 300ms;
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.image-grid__img {
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
 .content-page {
   text-align: left;
   margin: 0 auto;

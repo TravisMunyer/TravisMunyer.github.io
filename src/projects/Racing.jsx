@@ -22,7 +22,7 @@ export default function Racing() {
             className="content-page"
         >
             <h2>🏁 Rrrrrracing! An Exploration of Reinforcement Learning in the DeepRacer Environment</h2>
-            <p><strong>Travis Munyer – Georgia Tech | 2025</strong></p>
+            <p><strong>Travis Munyer | May 2025 </strong></p>
 
             <p>
                 This project explores reinforcement learning (RL) in the AWS DeepRacer simulation environment, tackling

@@ -8,7 +8,7 @@ export const metadata = {
     title: "🌙 Landing on the Moon: An Exploration of PPO",
     image,
     slug: "lunar-lander",
-    order: 3,
+    order: 4,
     description: "Solving the Lunar Lander Continuous environment with Proximal Policy Optimization (PPO): methodology, hyperparameter tuning, results, and future work.",
     keywords: "Travis Munyer, Lunar Lander, PPO, Reinforcement Learning, Machine Learning, Continuous Control, Research"
 };
@@ -22,7 +22,7 @@ export default function LunarLander() {
             className="content-page"
         >
             <h2>🌙 Landing on the Moon: An Exploration of PPO</h2>
-            <p><strong>Travis Munyer – Georgia Tech | 2025</strong></p>
+            <p><strong>Travis Munyer | March 2025</strong></p>
 
             <p>
                 This project explores the use of Proximal Policy Optimization (PPO) in solving the Lunar Lander Continuous environment from the Gymnasium library.
