@@ -23,7 +23,7 @@ export default function Home() {
                 <meta name="description" content="Welcome to the homepage of Travis Munyer: Software Engineer, Data Scientist, Researcher, Mentor, and AI Enthusiast." />
                 <meta name="keywords" content="Travis Munyer, Home, Software Engineer, Data Scientist, Researcher, Mentor, AI Enthusiast" />
             </Helmet>
-            <h1 style={{ fontSize: '2.5em', marginBottom: '0.5em' }}>Meet Travis.</h1>
+            <h1 style={{ fontSize: '2.0em', marginBottom: '0.5em' }}>Meet Travis.</h1>
             <ReactTyped
                 strings={roles}
                 typeSpeed={60}
@@ -32,7 +32,7 @@ export default function Home() {
                 loop
                 showCursor
                 cursorChar="|"
-                style={{ fontSize: '2em', color: '#555' }}
+                style={{ fontSize: '1.6em', color: '#555' }}
             />
         </div>
     );
